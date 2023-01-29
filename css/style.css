@@ -13,6 +13,7 @@
 
 #control_bottons {
     margin: 10px;
+    display: inline-block;
 }
 
 #status {
@@ -24,4 +25,7 @@
 footer {
     margin-left: -150px;
     text-align: center;
+}
+input, .btn-group-toggle {
+    display: inline !important;
 }

@@ -257,6 +257,11 @@ console.log(points[best[0]]);
 		fout += eof[c] + '\n';
 	}
 
+	  if ($('#cap_chk').val()) {
+		  console.log('Is cap');
+		  fout = fout.toUpperCase();
+	  }
+
 	var blob = new Blob([fout]);
 	var fn = gc.value;
 	if (fn.substr(0,12) == 'C:\\fakepath\\') {
